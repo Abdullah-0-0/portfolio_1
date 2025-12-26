@@ -121,6 +121,12 @@
     .caracter{
         color: rgb(137, 152, 167);
     }
+    .li_proj{
+        list-style: none;
+    }
+    .li_elem{
+        margin-top: 10px;
+    }
     /* Optionnel : petite amélioration mobile */
 @media (max-width: 900px) {
     body {
