@@ -189,6 +189,10 @@ body{
         font-size: 22px;
         margin-bottom: 8px;
     }
+    .name{
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
     .ref{
         background: #f9f9f9;
         padding: 25px;
@@ -204,5 +208,6 @@ body{
     gap: 20px;
     }
 }
+
 
 
