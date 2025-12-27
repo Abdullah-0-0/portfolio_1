@@ -160,4 +160,49 @@ body{
         flex-direction: column;
     }
 }
+@media (max-width: 575px) {
+    .container {
+        margin: 0;         /* plus de marge haut/bas/auto */
+        padding: 0;        /* plus de padding latéral */
+        gap: 15px;         /* un peu moins d'espace entre les sections */
+    }
+    .partie-gauche {
+        border-radius: 10px;  /* optionnel : enlève les coins arrondis en haut pour un look plein écran */
+        margin: 0;
+        margin-top: 10px;
+        padding: 30px 20px; /* garde un peu d'air à l'intérieur */
+    }
+    .experience_professionnelle h2{
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+    .profil_professionnelle h2{
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+    .parti_centrale {
+        border-radius: 10px;  /* optionnel : plein écran aussi en bas */
+        margin: 0;
+        padding: 30px 20px;
+    }
+    .CURSUS-centrale h2 , .referent h2 {
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+    .ref{
+        background: #f9f9f9;
+        padding: 25px;
+        border-left: 4px solid #000;
+        text-align: left;
+    }
+    .ref h4 {
+    margin-bottom: 15px;
+    }
+    .referent .projet {
+    display: grid;
+    grid-template-columns: 1fr; /* par défaut : 1 seule colonne (mobile first) */
+    gap: 20px;
+    }
+}
+
 
