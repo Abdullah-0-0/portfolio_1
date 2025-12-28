@@ -124,6 +124,10 @@ body{
         .container { grid-template-columns: 1fr; }
         .left { padding: 40px 30px; }
     }
+    .ref h4 {
+    margin-bottom: 10px;
+    /*margin-top: 10px;*/
+    }
     .argu_centrale{
         font-size: 30px;
         color: rgb(148, 156, 164);
@@ -200,7 +204,7 @@ body{
         text-align: left;
     }
     .ref h4 {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     }
     .referent .projet {
     display: grid;
